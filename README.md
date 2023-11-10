@@ -1,4 +1,8 @@
-# VBA Sync&#x2001;![VBA Sync logo](http://i.imgur.com/sQAsBy4.png)
+# VBA Sync Fork
+
+This repository is a fork of <https://github.com/chelh/VBASync> based on another user's fork (<https://github.com/andyqp/VBASync>). The fork in this repository fixes the issue referenced in <https://github.com/chelh/VBASync/issues/37#issue-329371311>. The fix requires the file `VbaCompressionCodec.csproj` from the repository <https://github.com/chelh/VBACompressionCodec>, which is included here in the `Working Executable` directory. To use the tool, simply run the `VBASync.exe` in the `Working Executable` directory. The original repository's documentation is included below for reference.
+
+# VBA Sync (Original Documentation)&#x2001;![VBA Sync logo](http://i.imgur.com/sQAsBy4.png)
 
 Microsoft Office VBA code is usually held in binary format, making proper
 version control difficult. VBA Sync synchronizes macros between a
