@@ -1,3 +1,4 @@
+origin: https://github.com/PavlosPV/VBASync
 # VBA Sync Fork
 
 This repository is a fork of <https://github.com/chelh/VBASync> based on another user's fork (<https://github.com/andyqp/VBASync>). The fork in this repository fixes the issue referenced in <https://github.com/chelh/VBASync/issues/37#issue-329371311>. The fix requires the file `VbaCompressionCodec.csproj` from the repository <https://github.com/chelh/VBACompressionCodec>, which is included here in the `Working Executable` directory. To use the tool, simply run the `VBASync.exe` in the `Working Executable` directory. The original repository's documentation is included below for reference.
